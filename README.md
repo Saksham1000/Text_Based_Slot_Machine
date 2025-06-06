@@ -1,23 +1,17 @@
 🎰 Text-Based Slot Machine (Python)
-This is a simple text-based slot machine game built with Python for the terminal. The player can deposit money, choose how many lines to bet on (up to 3), place a bet per line, and spin a randomized 3x3 slot machine to try and win based on symbol matches.
-🕹 Features
-•	Deposit money to start playing.
-•	Bet on 1 to 3 horizontal lines.
-•	Set custom bet amounts per line.
-•	Random symbol distribution with configurable probabilities.
-•	Win based on matching symbols across selected lines.
-•	Displays total winnings and remaining balance after each spin.
+This is a simple terminal-based slot machine game developed in Python. The game allows players to deposit money, choose how many horizontal lines (up to 3) they want to bet on, and specify a custom bet amount per line. Once the bet is placed, the player spins a 3x3 slot machine filled with randomly selected symbols based on predefined frequencies. If a player matches the same symbol across a bet line, they win an amount calculated using symbol-based payout multipliers. The game includes features such as balance tracking, dynamic symbol distribution, and informative feedback on winnings and losses after each spin.
 
-⚙ Symbols and Payouts
-Each symbol has a different frequency and value:
-Symbol	Frequency	Payout Multiplier
-    A			2	           5×
-    B			4		4×
-    C			6		3×
-     D			8		2×
-You win if all symbols match across any of the lines you bet on.
+⚙ Gameplay Details
+Symbols have different frequencies and payout values:
+
+A (2 instances) → 5× payout
+
+B (4 instances) → 4× payout
+
+C (6 instances) → 3× payout
+
+D (8 instances) → 2× payout
+To win, all three symbols in a horizontal line (that you bet on) must match.
+
 💻 How to Run
-1. Make sure Python 3 is installed.
-2. Run the script:
-python main.py
-3. Follow the prompts in the terminal to deposit, bet, and spin.
+To play the game, ensure Python 3 is installed on your system. Run the script using python main.py in your terminal or command prompt. Follow the on-screen instructions to deposit money, place your bets, spin the machine, and see if you win!
